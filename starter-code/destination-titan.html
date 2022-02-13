@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Space tourism website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url("assets/destination/background-destination-desktop.jpg");
+      height: 100 vw;
+      font-family: 'Bellefair', serif;
+    }
+
+    li {
+      list-style: none;
+      padding: 0 3vw;
+    }
+
+    li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .list-container {
+      position: absolute;
+      background: #ffffff0a;
+      background-image: initial;
+      background-position-x: initial;
+      background-position-y: initial;
+      background-size: initial;
+      background-attachment: initial;
+      background-origin: initial;
+      background-clip: initial;
+      background-color: rgba(255, 255, 255, 0.04);
+      right: 7vw;
+      width: 39vw;
+      height: 5vw;
+      margin-top: 2.5vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+
+
+    .main-container {
+      position: absolute;
+      top: 11vw;
+      color: aliceblue;
+      left: 13vw;
+      width: 35vw;
+      height: 30vw;
+    }
+
+    #Titan-image {
+      width: 20vw;
+      padding: 3.5vw;
+    }
+
+    .main-container {
+      position: absolute;
+      top: 11vw;
+      color: aliceblue;
+      left: 13vw;
+      width: 35vw;
+      height: 30vw;
+    }
+
+    .sub-list {
+      position: absolute;
+      top: 17vw;
+      right: 20vw;
+      width: 22vw;
+      height: 20vw;
+      display: flex;
+      flex-direction: column;
+      justify-content: left;
+    }
+
+    .sub-list ul {
+      display: flex;
+      flex-direction: row;
+      color: white;
+      text-align: left;
+    }
+
+    .sub-list ul li {
+      padding: 0 1vw;
+      font-size: 14px;
+    }
+
+    p {
+      color: white;
+      margin: 15px 0 30px 0px;
+      font-size: 16px;
+      word-spacing: 4px;
+    }
+
+    span {
+      color: white;
+      font-size: 90px;
+      margin-top: 12px;
+    }
+
+    .info-container {
+      position: absolute;
+      bottom: 2vw;
+      right: 22vw;
+      display: flex;
+      flex-direction: row;
+
+    }
+
+    .distance-con {
+      padding: 0 15px 0 0
+    }
+
+    .distance-con {
+      margin: 2px 0 0 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <nav>
+    <div class="nav-div">
+      <div class="list-container">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="./destination-moon.html"> Destination </a></li>
+        <li><a href="./crew-commander.html"> Crew </a></li>
+        <li><a href="./technology-vehicle.html"> Technology</a></li>
+      </div>
+    </div>
+  </nav>
+  <section class="main-container">
+    <h1>KNOW ABOUT YOUR DESTINATION </h1>
+    <img src="assets/destination/image-titan.png" alt="Titan here" id="Titan-image">
+  </section>
+  <div class="sub-list">
+    <ul>
+      <li><a href="destination-moon.html">Mooon</a></li>
+      <li><a href="destination-mars.html">Mars</a></li>
+      <li><a href="destination-europa.html">Europa</a></li>
+      <li><a href="destination-titan.html">Titan</a></li>
+    </ul>
+    <span>Titan</span>
+    <p> The only moon known to have a dense atmosphere other than Earth, Titan
+      is a home away from home (just a few hundred degrees colder!). As a
+      bonus, you get striking views of the Rings of Saturn.</p>
+    <hr>
+  </div>
+  <div class="info-container">
+    <div class="distance-con">
+      <p>AVG DISTANCE </p>
+      <p>1.6 bil km</p>
+    </div>
+    <div class="travel-con">
+      <p>EST. TRAVELRTIME</p>
+      <p>7 years</p>
+    </div>
+  </div>
+</body>
+
+</html>

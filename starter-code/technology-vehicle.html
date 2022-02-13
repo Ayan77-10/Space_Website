@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bellefair&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Space tourism website</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url("assets/technology/background-technology-desktop.jpg");
+      height: 100 vw;
+      font-family: 'Bellefair', serif;
+    }
+
+    li {
+      list-style: none;
+      padding: 0 3vw;
+    }
+
+    li a {
+      text-decoration: none;
+      color: white;
+    }
+
+    .list-container {
+      position: absolute;
+      background: #ffffff0a;
+      background-image: initial;
+      background-position-x: initial;
+      background-position-y: initial;
+      background-size: initial;
+      background-attachment: initial;
+      background-origin: initial;
+      background-clip: initial;
+      background-color: rgba(255, 255, 255, 0.04);
+      right: 7vw;
+      width: 39vw;
+      height: 5vw;
+      margin-top: 2.5vw;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      align-items: center;
+      font-family: 'Barlow Condensed', sans-serif;
+    }
+
+    .button-container {
+
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      top: 18rem;
+      left: 13vw;
+    }
+
+    .button {
+      width: 5vw;
+      height: 4rem;
+      border-radius: 70%;
+      border: white;
+      margin: 0.8rem;
+
+
+    }
+
+    .button:hover {
+      background-color: rgb(173, 173, 173);
+    }
+
+    .main-section {
+      position: absolute;
+      top: 23vw;
+      color: aliceblue;
+      left: 24vw;
+      width: 41vw;
+      height: 30vw;
+    }
+
+    .main-section h1 {
+      font-size: 20px;
+      margin-bottom: 20px;
+
+    }
+
+    .main-section span {
+      font-size: 40px;
+      margin: 2px 0 35px 0;
+
+    }
+
+    .main-section p {
+      font-size: 18px;
+      margin-top: 20px;
+    }
+
+    .img-container {
+      position: absolute;
+      top: 17vw;
+      right: 15vw;
+      width: 16vw;
+      height: 20vw;
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-div">
+      <div class="list-container">
+        <li><a href="index.html"> Home</a></li>
+        <li><a href="./destination-moon.html"> Destination </a></li>
+        <li><a href="./crew-commander.html"> Crew </a></li>
+        <li><a href="./technology-vehicle.html"> Technology</a></li>
+      </div>
+    </div>
+  </nav>
+  <div class="button-container">
+    <a href="./technology-vehicle.html"><button type="button" class="button">1</button></a>
+    <a href="./technology-spaceport.html"><button type="button" class="button">2</button></a>
+    <a href="./technology-capsule.html"><button type="button" class="button">3</button></a>
+  </div>
+  <section class="main-section">
+    <h1> THE TERMINOLOGY...</h1>
+    <span>LAUNCH VEHICLE</span>
+    <p>A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
+      payload from Earth's surface to space, usually to Earth orbit or beyond. Our
+      WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
+      it's quite an awe-inspiring sight on the launch pad! --></p>
+  </section>
+  <div class="img-container">
+    <img src="assets/technology/image-launch-vehicle-portrait.jpg" alt="Lauch vehicle">
+  </div>
+</body>
+
+</html>
+<!-- 00 Home
+01 Destination
+02 Crew
+03 Technology
+
+03 Space launch 101
+
+1
+2
+3
+
+The terminology...
+Launch vehicle
+
+A launch vehicle or carrier rocket is a rocket-propelled vehicle used to carry a
+payload from Earth's surface to space, usually to Earth orbit or beyond. Our
+WEB-X carrier rocket is the most powerful in operation. Standing 150 metres tall,
+it's quite an awe-inspiring sight on the launch pad! -->
